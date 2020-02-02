@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Majestee"
-            VALUE "FileDescription",    "majestee-cli (JSON-RPC client for " PACKAGE_NAME ")"
+            VALUE "CompanyName",        "Majesteescoin"
+            VALUE "FileDescription",    "majestees-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "majestee-cli"
+            VALUE "InternalName",       "majestees-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "majestee-cli.exe"
-            VALUE "ProductName",        "majestee-cli"
+            VALUE "OriginalFilename",   "majestees-cli.exe"
+            VALUE "ProductName",        "majestees-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

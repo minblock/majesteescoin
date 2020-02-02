@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Majestee"
-            VALUE "FileDescription",    "majestee-tx (CLI Majestee transaction editor utility)"
+            VALUE "CompanyName",        "Majesteescoin"
+            VALUE "FileDescription",    "majestees-tx (CLI Majesteescoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "majestee-tx"
+            VALUE "InternalName",       "majestees-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "majestee-tx.exe"
-            VALUE "ProductName",        "majestee-tx"
+            VALUE "OriginalFilename",   "majestees-tx.exe"
+            VALUE "ProductName",        "majestees-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

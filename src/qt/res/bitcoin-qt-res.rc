@@ -19,13 +19,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Majestee"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Majestee)"
+            VALUE "CompanyName",        "Majesteescoin"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Majesteescoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "majestee-qt"
+            VALUE "InternalName",       "majestees-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "majestee-qt.exe"
+            VALUE "OriginalFilename",   "majestees-qt.exe"
             VALUE "ProductName",        PACKAGE_NAME
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

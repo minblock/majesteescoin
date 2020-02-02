@@ -1,13 +1,23 @@
 dist_man1_MANS=
 
 if BUILD_BITCOIND
-  dist_man1_MANS+=majesteed.1
+  dist_man1_MANS+=majesteesd.1
 endif
 
 if ENABLE_QT
-  dist_man1_MANS+=majestee-qt.1
+  dist_man1_MANS+=majestees-qt.1
 endif
 
-if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=majestee-cli.1 majestee-tx.1
+if BUILD_BITCOIN_CLI
+  dist_man1_MANS+=majestees-cli.1
+endif
+
+if BUILD_BITCOIN_TX
+  dist_man1_MANS+=majestees-tx.1
+endif
+
+if ENABLE_WALLET
+if BUILD_BITCOIN_WALLET
+  dist_man1_MANS+=majestees-wallet.1
+endif
 endif
