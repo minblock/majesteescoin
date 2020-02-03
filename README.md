@@ -8,7 +8,17 @@ https://majestees.org
 What is Majesteescoin?
 ----------------
 
-Majesteescoin is an experimental digital currency that enables instant payments to
+Majesteescoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+ - 2.5 minute block targets
+ - 200 block confirmations
+ - subsidy halves in 840k blocks (~4 years)
+ - ~26 million total coins
+
+The rest is the same as Bitcoin.
+ - 50 coins per block
+ - 2016 blocks to retarget difficulty
+ 
+An experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Majesteescoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Majesteescoin Core is the name of open source
