@@ -109,8 +109,8 @@ public:
         pchMessageStart[3] = 0xdb;
         nDefaultPort = 9999;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 0;
-        m_assumed_chain_state_size = 0;
+        m_assumed_blockchain_size = 0.140;
+        m_assumed_chain_state_size = 0.037;
 
         genesis = CreateGenesisBlock(1580692708, 617793, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
@@ -122,7 +122,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed.pgn.one");
+        vSeeds.emplace_back("seed.provigen.net");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,19); //Majesteescoin addresses begin with a 8 or 9
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,1); //Majesteescoin segwit addresses begin with Q-Z, a-k, or m-o
@@ -141,15 +141,15 @@ public:
 
         checkpointData = {
             {
-                {  0, uint256S("0x80156a555d3e356668997ecf9be63330dbc3284624b51cc0de8ee30224eaa886")},
+                {  245474, uint256S("0x067c767dd8ef6f65aa66c51b5ab1fd844ea063d9d2cf6bf9de5d06b16774e1dd")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 2cdba8c47858d34cf0e02dfb8733263a3ed8705b1663ec7c158783d77b93e7ee
-            /* nTime    */ 1580692708,
-            /* nTxCount */ 36299075,
-            /* dTxRate  */ 0.388813310286546
+            /* nTime    */ 1632066490,
+            /* nTxCount */ 245477,
+            /* dTxRate  */ 1
         };
 
         /* disable fallback fee on mainnet */
@@ -201,7 +201,7 @@ public:
         pchMessageStart[1] = 0xd2;
         pchMessageStart[2] = 0xc8;
         pchMessageStart[3] = 0xf1;
-        nDefaultPort = 19335;
+        nDefaultPort = 1320;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 0;
         m_assumed_chain_state_size = 0;
@@ -214,9 +214,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.majesteestools.com");
-        vSeeds.emplace_back("seed-b.majestees.loshan.co.uk");
-        vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
+        vSeeds.emplace_back("192.3.3.18");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
