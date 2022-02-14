@@ -3,7 +3,7 @@ Majesteescoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/minblock/majestees.svg?branch=master)](https://travis-ci.org/minblock/majestees)
 
-https://explorer.provigen.nett
+https://explorer.provigen.net
 
 What is Majesteescoin?
 ----------------
